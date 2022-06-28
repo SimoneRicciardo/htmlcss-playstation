@@ -1,4 +1,34 @@
+/*==GENERIC RULE==*/
+
+:root{
+    --color_gray_bg: rgb(31, 31, 31);
+}
+
+html{
+    font-family: sans-serif;
+}
+
 .img_size{
     width: 100px;
 }
 
+.ms_hero_img{
+    padding-top: 200px;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero{
+    margin-top: 110px;
+}
+
+.ms_banner_img{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#new{
+    background-color: var(--color_gray_bg);
+}
