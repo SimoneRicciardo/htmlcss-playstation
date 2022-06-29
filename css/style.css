@@ -135,3 +135,10 @@ footer div ul li a{
         width: 70%;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .dropdown-menu.show .fa-angle-up{
+        display: none;
+    }
+    
+  }
