@@ -35,12 +35,12 @@ html{
     background-color: var(--color_white_btn);
 }
 
-
-/*==HEADER==*/
 .img_size{
     width: 100px;
 }
 
+
+/*==HEADER==*/
 .ms_hero_img{
     padding-top: 200px;
     background-image: url('../img/jumbo-bg.png');
@@ -48,15 +48,17 @@ html{
     background-position: center;
 }
 
-#hero{
-    margin-top: 110px;
-}
-
 .ms_border_img{
     outline: solid 2px var(--color_blue);
     outline-offset: 3px;
 }
 
+#hero{
+    margin-top: 110px;
+}
+
+
+/*==MAIN==*/
 .ms_banner_img{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-size: cover;
@@ -64,7 +66,7 @@ html{
 }
 
 #new{
-    background-color: var(--color_grey_bg);
+    background-color: var(--color_gray_bg);
 }
 
 #banner-2{
@@ -79,6 +81,8 @@ footer{
     background-color: var(--color_blue);
 }
 
+
+/*==footer==*/
 .img_size_footer{
     width: 20px;
 }
@@ -90,4 +94,44 @@ footer{
 footer div ul li a{
     text-decoration: none;
     color: white;
+}
+
+/*==HOVER==*/
+.ms_btn_hover:hover{
+    outline: solid 2px;
+    outline-offset: -5px;
+}
+
+.ms_btn_hover_black:hover{
+    outline: solid 3px black;
+    outline-offset: -5px;
+}
+
+.base_hover{
+    position: relative;
+    bottom: 0;
+    transition: bottom linear 0.3s;
+}
+
+.ms_hover_img:hover{
+    bottom: 15px;
+}
+
+.ms_hover_opacity{
+    opacity: 50%;
+    border-bottom: 2px solid white;
+}
+
+.ms_hover_opacity:hover{
+    border-color: rgb(45, 100, 230);
+    color: rgb(45, 100, 230);
+    opacity: 100%;
+}
+
+/*==MEDIA QUERY==*/
+
+@media all and (min-width: 768px){
+    .ms_img_query{
+        width: 70%;
+    }
 }
